@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A189EF252A962614005F7200 /* BinomTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF242A962614005F7200 /* BinomTechApp.swift */; };
+		A189EF292A962616005F7200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A189EF282A962616005F7200 /* Assets.xcassets */; };
+		A189EF2C2A962616005F7200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A189EF2B2A962616005F7200 /* Preview Assets.xcassets */; };
+		A189EF352A97366D005F7200 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF342A97366D005F7200 /* Location.swift */; };
+		A189EF372A973753005F7200 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF362A973753005F7200 /* LocationsDataService.swift */; };
+		A189EF3F2A973918005F7200 /* LocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF3E2A973918005F7200 /* LocationScreen.swift */; };
+		A189EF412A973CAE005F7200 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF402A973CAE005F7200 /* LocationViewModel.swift */; };
+		A189EF452A974EA1005F7200 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF442A974EA1005F7200 /* LocationListView.swift */; };
+		A189EF4C2A976053005F7200 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189EF4B2A976053005F7200 /* LocationPreviewView.swift */; };
+		A1FBC3BC2A977349008A6693 /* LocationMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBC3BB2A977349008A6693 /* LocationMapAnnotation.swift */; };
+		A1FBC3BE2A97777C008A6693 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBC3BD2A97777C008A6693 /* LocationDetailView.swift */; };
+		A1FBC3C52A99C03A008A6693 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FBC3C42A99C03A008A6693 /* Builder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A189EF212A962614005F7200 /* BinomTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinomTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A189EF242A962614005F7200 /* BinomTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinomTechApp.swift; sourceTree = "<group>"; };
+		A189EF282A962616005F7200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A189EF2B2A962616005F7200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A189EF342A97366D005F7200 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A189EF362A973753005F7200 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		A189EF3E2A973918005F7200 /* LocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationScreen.swift; sourceTree = "<group>"; };
+		A189EF402A973CAE005F7200 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		A189EF442A974EA1005F7200 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		A189EF4B2A976053005F7200 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		A1FBC3BB2A977349008A6693 /* LocationMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotation.swift; sourceTree = "<group>"; };
+		A1FBC3BD2A97777C008A6693 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		A1FBC3C42A99C03A008A6693 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A189EF1E2A962614005F7200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A189EF182A962614005F7200 = {
+			isa = PBXGroup;
+			children = (
+				A189EF232A962614005F7200 /* BinomTech */,
+				A189EF222A962614005F7200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A189EF222A962614005F7200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF212A962614005F7200 /* BinomTech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A189EF232A962614005F7200 /* BinomTech */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF242A962614005F7200 /* BinomTechApp.swift */,
+				A1FBC3C42A99C03A008A6693 /* Builder.swift */,
+				A189EF462A975F71005F7200 /* Location flow */,
+				A189EF282A962616005F7200 /* Assets.xcassets */,
+				A189EF2A2A962616005F7200 /* Preview Content */,
+			);
+			path = BinomTech;
+			sourceTree = "<group>";
+		};
+		A189EF2A2A962616005F7200 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF2B2A962616005F7200 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A189EF462A975F71005F7200 /* Location flow */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF472A975F7D005F7200 /* Model */,
+				A189EF4A2A975FBB005F7200 /* DataService */,
+				A189EF492A975FAF005F7200 /* ViewModel */,
+				A189EF482A975F8C005F7200 /* Screen */,
+			);
+			path = "Location flow";
+			sourceTree = "<group>";
+		};
+		A189EF472A975F7D005F7200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF342A97366D005F7200 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A189EF482A975F8C005F7200 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF3E2A973918005F7200 /* LocationScreen.swift */,
+				A1FBC3C02A9777C6008A6693 /* View */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A189EF492A975FAF005F7200 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF402A973CAE005F7200 /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A189EF4A2A975FBB005F7200 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				A189EF362A973753005F7200 /* LocationsDataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		A1FBC3C02A9777C6008A6693 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1FBC3BD2A97777C008A6693 /* LocationDetailView.swift */,
+				A189EF442A974EA1005F7200 /* LocationListView.swift */,
+				A189EF4B2A976053005F7200 /* LocationPreviewView.swift */,
+				A1FBC3BB2A977349008A6693 /* LocationMapAnnotation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A189EF202A962614005F7200 /* BinomTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A189EF2F2A962616005F7200 /* Build configuration list for PBXNativeTarget "BinomTech" */;
+			buildPhases = (
+				A189EF1D2A962614005F7200 /* Sources */,
+				A189EF1E2A962614005F7200 /* Frameworks */,
+				A189EF1F2A962614005F7200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinomTech;
+			productName = BinomTech;
+			productReference = A189EF212A962614005F7200 /* BinomTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A189EF192A962614005F7200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A189EF202A962614005F7200 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A189EF1C2A962614005F7200 /* Build configuration list for PBXProject "BinomTech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A189EF182A962614005F7200;
+			productRefGroup = A189EF222A962614005F7200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A189EF202A962614005F7200 /* BinomTech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A189EF1F2A962614005F7200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A189EF2C2A962616005F7200 /* Preview Assets.xcassets in Resources */,
+				A189EF292A962616005F7200 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A189EF1D2A962614005F7200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A189EF452A974EA1005F7200 /* LocationListView.swift in Sources */,
+				A1FBC3BE2A97777C008A6693 /* LocationDetailView.swift in Sources */,
+				A189EF3F2A973918005F7200 /* LocationScreen.swift in Sources */,
+				A189EF4C2A976053005F7200 /* LocationPreviewView.swift in Sources */,
+				A189EF352A97366D005F7200 /* Location.swift in Sources */,
+				A189EF412A973CAE005F7200 /* LocationViewModel.swift in Sources */,
+				A189EF252A962614005F7200 /* BinomTechApp.swift in Sources */,
+				A1FBC3C52A99C03A008A6693 /* Builder.swift in Sources */,
+				A1FBC3BC2A977349008A6693 /* LocationMapAnnotation.swift in Sources */,
+				A189EF372A973753005F7200 /* LocationsDataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A189EF2D2A962616005F7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A189EF2E2A962616005F7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A189EF302A962616005F7200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinomTech/Preview Content\"";
+				DEVELOPMENT_TEAM = WPP2S47RZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Shtandaruk.BinomTech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A189EF312A962616005F7200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinomTech/Preview Content\"";
+				DEVELOPMENT_TEAM = WPP2S47RZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Shtandaruk.BinomTech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A189EF1C2A962614005F7200 /* Build configuration list for PBXProject "BinomTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A189EF2D2A962616005F7200 /* Debug */,
+				A189EF2E2A962616005F7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A189EF2F2A962616005F7200 /* Build configuration list for PBXNativeTarget "BinomTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A189EF302A962616005F7200 /* Debug */,
+				A189EF312A962616005F7200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A189EF192A962614005F7200 /* Project object */;
+}
